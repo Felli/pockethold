@@ -2,7 +2,7 @@
 
 
 # The first webinstaller for Flarum(?)
-* Downloads Composer, and prepare Flarum for installation.  
+* Downloads Composer and installs flarum without shell access. 
 
 Requirements.
 1. cUrl or allow_url_fopen = true
@@ -10,6 +10,6 @@ Requirements.
 
 Usage:
 Upload installer.php where you want Flarum to be installed. 
-Visit the the default: “yoururl.com/installer.php” and follow the instructions. 
+Go to: “yoururl.com/installer.php” and follow the instructions. 
 
 Pockethold will redirect you upon completion.
